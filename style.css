@@ -1,0 +1,222 @@
+nav {
+  background: linear-gradient(135deg, #3a86ff, #8338ec, #ff006e);
+}
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo img {
+  width: 70px;
+  height: auto;
+  border-radius: 10px;
+}
+
+.nav-links a {
+  color: black;
+  text-decoration: none;
+  margin: 0 10px;
+  padding-right: 20px;
+}
+
+.nav-links a:hover {
+  color: whitesmoke;
+}
+.content {
+  background-image: url(./ASSETS/background.png);
+}
+.content1 {
+  background-image: url(./ASSETS/bg.png);
+}
+.text {
+  color: #fff;
+  font-size: 24px;
+  text-align: center;
+  padding: 20px;
+}
+.name1 {
+  color: #5a8dee;
+  text-align: center;
+}
+.name {
+  color: #6c63ff;
+  text-align: center;
+}
+
+.btn {
+  margin: 20px auto;
+  padding: 10px 20px;
+  background-color: #3b82f6;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.btn:hover {
+  background-color: #2563eb;
+}
+.btn a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.head-part {
+  padding-left: 200px;
+}
+
+.pimg {
+  padding-left: 20px;
+  width: 100px;
+  height: auto;
+  padding-top: 20px;
+  border-radius: 20px;
+}
+
+.project {
+  display: flex;
+  justify-content: space-between;
+}
+.first,
+.second,
+.third {
+  padding-left: 20px;
+  background: gray;
+  border-radius: 20px;
+  border-color: black;
+  margin-left: 30px;
+}
+
+.pbtn {
+  margin: 20px auto;
+  padding: 10px 20px;
+  background-color: #3b82f6;
+  color: #fff;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.pbtn:hover {
+  background-color: #2563eb;
+}
+.pbtn a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.info {
+  border-radius: 20px;
+  padding: 20px;
+  color: white;
+  font-size: 20px;
+}
+.info-1 {
+  color: white;
+  padding: 20px;
+  margin: 0px;
+  text-align: center;
+}
+
+footer {
+  background-color: #0e0e1a;
+}
+.footer {
+  display: flex;
+  padding: 23px 122px;
+  margin-top: 10px;
+  justify-content: space-between;
+}
+footer .footer-rights {
+  text-align: center;
+  color: gray;
+  padding: 12px 0;
+  font-size: 20px;
+}
+.footer-first {
+  color: white;
+  padding-right: 100px;
+}
+.footer-second {
+  color: white;
+  padding-top: 28px;
+  display: flex;
+  gap: 40px;
+}
+.footer-second a {
+  color: white;
+  text-decoration: none;
+}
+.footer-second a:hover {
+  color: #d38038;
+  cursor: pointer;
+}
+.info-2 {
+  color: gray;
+}
+
+.serv {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 20px;
+}
+.html1,
+.css1,
+.js1,
+.react1,
+.node1,
+.express1,
+.mongodb1,
+.sql1 {
+  padding-left: 20px;
+  background: rgb(89, 99, 154);
+  border-radius: 20px;
+  border-color: black;
+  margin-left: 30px;
+}
+
+.front {
+  color: #5a8dee;
+  text-align: center;
+}
+
+.right {
+  flex: 1;
+  background: #fff;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.form-group {
+  margin-bottom: 15px;
+  text-align: center;
+}
+.form-group label {
+  display: block;
+  margin-bottom: 5px;
+  color: #333;
+}
+input {
+  width: 100%;
+  padding: 12px;
+  border-radius: 8px;
+  outline: none;
+}
+.contact {
+  display: flex;
+}
+.img-contact {
+  width: 300px;
+  height: auto;
+  border-radius: 20px;
+  margin-left: 50px;
+}
+
+.c-btn{
+   
+    background-color: #3b82f6;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+    margin-left: 250px;
+}
