@@ -1,6 +1,4 @@
-function send() {
-    alert("Message sent successfully!");
-}
+
 
       function toggle(id) {
     var info = document.getElementById(id);
@@ -11,3 +9,4 @@ function send() {
         info.style.display = "block";
     }
 }
+

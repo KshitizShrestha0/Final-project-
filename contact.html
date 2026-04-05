@@ -7,6 +7,15 @@
     <title>Portfolio-Kshitiz</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
+    </script>
+    <script type="text/javascript">
+        (function () {
+            emailjs.init({
+                publicKey: "O-hQiqzrnzi0P1QGY",
+            });
+        })();
+    </script>
 </head>
 
 <body>
@@ -26,33 +35,41 @@
     <h1 class="front">Contact Us</h1>
     <div class="contact">
         <div>
-            <p class="front-1"> We are available for questions, feedback, or collaboration opportunities.Let us know how we <br>
-            can help!
-            You can also contact us at kshitizshrestha102@gmail.com for colabaration.
-        </p>
-    <img class="img-contact" src="./ASSETS/contact.png" alt="">
-    </div>
-        
-        <div class="right">
-            <div class="form-group">
-                <label>Name</label>
-                <input type="text" placeholder="Your Name">
-            </div>
-            <div class="form-group">
-                <label>Email</label>
-                <input type="email" placeholder="Email">
-            </div>
-            <div class="form-group">
-                <label>Phone Number</label>
-                <input type="text" placeholder="Your Phone Number">
-            </div>
-            <div class="form-group">
-                <label>Message</label>
-                <textarea name="message"  placeholder="write aanything" class="input"></textarea>
-            </div>
-            <button class="c-btn" onclick="send()">Send Message</button>
+            <p class="front-1"> We are available for questions, feedback, or collaboration opportunities.Let us know how
+                we <br>
+                can help!
+                You can also contact us at kshitizshrestha102@gmail.com for colabaration.
+            </p>
+            <img class="img-contact" src="./ASSETS/contact.png" alt="">
         </div>
+
+        <div class="right">
+            <form action="https://formspree.io/f/xqeggnyg" method="POST">
+                <div class="form-group">
+                    <label>Name</label>
+                    <input type="text" placeholder="Your Name" id="name" name="username" required>
+                </div>
+                <div class="form-group">
+                    <label>Email</label>
+                    <input type="email" placeholder="Email" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label>Phone Number</label>
+                    <input type="text" placeholder="Your Phone Number" name="number" required>
+                </div>
+                <div class="form-group">
+                    <label>subjectr</label>
+                    <input type="text" placeholder="subject" id="subject" name="subject" required>
+                </div>
+                <div class="form-group">
+                    <label>Message</label>
+                    <textarea name="message" placeholder="write aanything" class="input" id="message" name="textarea" required></textarea>
+                </div>
+                <button class="c-btn">Send Message</button>
+        </div>
+        </form>
     </div>
+
 </body>
 <script src="script.js"></script>
 <footer>
