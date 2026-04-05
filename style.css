@@ -80,7 +80,8 @@ nav {
 }
 .first,
 .second,
-.third {
+.third,
+.fourth {
   padding-left: 20px;
   background: rgba(167, 165, 165, 0.208);
   border-radius: 20px;
@@ -206,7 +207,7 @@ input {
   border-radius: 8px;
   outline: none;
 }
-.input{
+.input {
   width: 100%;
   padding: 12px;
   border-radius: 8px;
@@ -231,30 +232,29 @@ input {
   margin-left: 250px;
 }
 
-
-.info-all{
+.info-all {
   display: none;
   margin-top: 10px;
   padding: 10px;
   background: purple;
   border-radius: 8px;
-  color: white ;
+  color: white;
   font-style: italic;
   font-size: 20px;
 }
 
-.info-backend{
+.info-backend {
   display: none;
   margin-top: 10px;
   padding: 10px;
   background: purple;
   border-radius: 8px;
-  color: white ;
+  color: white;
   font-style: italic;
   font-size: 20px;
 }
 
-.btn-course{
+.btn-course {
   background-color: #3b82f6;
   color: #fff;
   border-radius: 5px;
@@ -263,5 +263,5 @@ input {
   text-align: center;
 }
 .btn-course:hover {
-  background-color:purple;
+  background-color: purple;
 }
